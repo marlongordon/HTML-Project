@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Marlon Martins">
+    <meta name="description" content="Fale Conosco da Tacolândia">
+    <title>Fale Conosco - Tacolândia</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Fale Conosco</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/HTML Project/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/#about">Sobre a <abbr title="Tacolândia">TCL</abbr></a>
+                </li>
+                <li>
+                    <a href="/#menu">Nosso Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Horário de Funcionamento</a>
+                </li>
+            </ul>
+            <figure>
+                <img src="img/tacos_close_up_400x260.png" alt="Tacos e um Drinque" title="Tacos fresquinhos pra comer!."
+                    width="400" height="260" loading="lazy">
+
+                <figcaption>Tacos da Tacolândia</figcaption>
+            </figure>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Nossa Forma de Contato</h2>
+            <form action="http://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Mande um Recado</legend>
+
+                    <p>
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" id="name" placeholder="seu nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="seu email" required>
+                    </p>
+                    <p>
+                        <label for="message">Seu comentário:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Escreva seu comentário aqui"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Recomeçar</button>
+            </form>
+        </section>
+
+        <section>
+
+            <h2>Onde Estamos</h2>
+
+            <address>
+                555 Rua da Tentação por Tacos, Suíte T
+                <br>
+                Kansas City, MO 55555-5555
+                <br>
+                <br>
+                Phone: <a href="tel:+5555555555">555-555-5555</a>
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <a href="#">De Volta ao Início</a>
+        </p>
+        <hr>
+        <p>
+            Copyright &copy; Tacolândia
+        </p>
+    </footer>
+</body>
